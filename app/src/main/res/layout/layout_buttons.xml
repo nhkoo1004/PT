@@ -29,6 +29,12 @@
             android:text="이전 기록 열람"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/loginViewsMargin"/>
+        <Button
+            android:id="@+id/cirLogoutButton"
+            style="@style/loginButton"
+            android:text="로그아웃"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/loginViewsMargin"/>
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>

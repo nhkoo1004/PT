@@ -26,8 +26,6 @@ public class MainActivity extends AppCompatActivity {
     private Button login;
     private TextView register;
 
-    private String TAG = "MainActivity";
-
     @Override
     public void onStart() {
         super.onStart();
