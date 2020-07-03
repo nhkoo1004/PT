@@ -45,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         register = findViewById(R.id.registerTextview);
         login = findViewById(R.id.cirLoginButton);
-        emailET = findViewById(R.id.textInputEmail);
-        passET = findViewById(R.id.textInputPassword);
+        emailET = findViewById(R.id.editTextEmail);
+        passET = findViewById(R.id.editTextPassword);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
