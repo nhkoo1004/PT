@@ -39,7 +39,7 @@
                     android:text="온라인 PT"
                     android:layout_marginTop="40dp"/>
                 <include
-                    layout="@layout/layout_register"/>
+                    layout="@layout/layout_login"/>
             </LinearLayout>
             <ImageView
                 android:layout_width="wrap_content"
