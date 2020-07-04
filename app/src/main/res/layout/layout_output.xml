@@ -22,7 +22,7 @@
             style="@style/parent"
             android:layout_marginTop="@dimen/loginViewsMargin">
             <TextView
-                android:id="@+id/editTextEmail"
+                android:id="@+id/squatTextView"
                 style="@style/modifiedEditText"
                 android:maxLines="1"
                 android:text="스쿼트(회)"/>
@@ -32,7 +32,7 @@
             style="@style/parent"
             android:layout_marginTop="@dimen/loginViewsMargin">
             <TextView
-                android:id="@+id/editTextEmail2"
+                android:id="@+id/pushTextView"
                 style="@style/modifiedEditText"
                 android:maxLines="1"
                 android:text="스쿼트(회)"/>
@@ -42,7 +42,7 @@
             style="@style/parent"
             android:layout_marginTop="@dimen/loginViewsMargin">
             <TextView
-                android:id="@+id/editTextEmail3"
+                android:id="@+id/jackTextView"
                 style="@style/modifiedEditText"
                 android:maxLines="1"
                 android:text="스쿼트(회)"/>
@@ -52,10 +52,30 @@
             style="@style/parent"
             android:layout_marginTop="@dimen/loginViewsMargin">
             <TextView
-                android:id="@+id/editTextEmail4"
+                android:id="@+id/crunchTextView"
                 style="@style/modifiedEditText"
                 android:maxLines="1"
                 android:text="스쿼트(회)"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputEmail5"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <TextView
+                android:id="@+id/foodTextView"
+                style="@style/modifiedEditText"
+                android:maxLines="1"
+                android:text="먹은 식단"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputEmail6"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <TextView
+                android:id="@+id/calTextView"
+                style="@style/modifiedEditText"
+                android:maxLines="1"
+                android:text="섭취 칼로리"/>
         </com.google.android.material.textfield.TextInputLayout>
         <Button
             android:id="@+id/cirLoginButton"

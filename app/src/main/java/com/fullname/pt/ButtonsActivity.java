@@ -44,5 +44,21 @@ public class ButtonsActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        input.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ButtonsActivity.this, InputActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        output.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ButtonsActivity.this, OutputActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -22,7 +22,7 @@
             style="@style/parent"
             android:layout_marginTop="@dimen/loginViewsMargin">
             <EditText
-                android:id="@+id/editTextEmail"
+                android:id="@+id/editTextSquat"
                 style="@style/modifiedEditText"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
@@ -33,7 +33,7 @@
             style="@style/parent"
             android:layout_marginTop="@dimen/loginViewsMargin">
             <EditText
-                android:id="@+id/editTextEmail2"
+                android:id="@+id/editTextPush"
                 style="@style/modifiedEditText"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
@@ -44,7 +44,7 @@
             style="@style/parent"
             android:layout_marginTop="@dimen/loginViewsMargin">
             <EditText
-                android:id="@+id/editTextEmail3"
+                android:id="@+id/editTextJack"
                 style="@style/modifiedEditText"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
@@ -55,14 +55,36 @@
             style="@style/parent"
             android:layout_marginTop="@dimen/loginViewsMargin">
             <EditText
-                android:id="@+id/editTextEmail4"
+                android:id="@+id/editTextCrunch"
                 style="@style/modifiedEditText"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:hint="크런치(회)"/>
         </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputEmail5"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <EditText
+                android:id="@+id/editTextFood"
+                style="@style/modifiedEditText"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:hint="하루의 식단을 적어주세요."/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputEmail6"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <EditText
+                android:id="@+id/editTextCal"
+                style="@style/modifiedEditText"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:hint="총 섭취 칼로리(kcal)"/>
+        </com.google.android.material.textfield.TextInputLayout>
         <Button
-            android:id="@+id/cirLoginButton"
+            android:id="@+id/cirSubmitButton"
             style="@style/loginButton"
             android:text="작성하기"
             android:layout_gravity="center_horizontal"
