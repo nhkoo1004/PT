@@ -2,10 +2,12 @@ package com.fullname.pt;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
@@ -52,7 +54,9 @@ public class InputActivity extends AppCompatActivity {
                 input.setCal(cal);
 
                 mDatabase.setValue(input);
-                finish();
+                Toast.makeText(InputActivity.this, "작성이 완료되었습니다.", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(InputActivity.this, MainActivity.class);
+                startActivity(intent);
             }
         });
 
